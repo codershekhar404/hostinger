@@ -37,7 +37,7 @@ const Navbar = ({
       <nav className={isScrolling ? "nav_stick" : "nav"}>
         <div className="brand">
           <div className="logo" onClick={() => {
-            navigate('/hostinger-clone/')
+            navigate('/hostinger/')
           }}>
             {isMediaLaptop ? (
               <img src={isScrolling ? "Brand_Dark.svg" : "Brand.svg"} alt="" />
@@ -122,7 +122,7 @@ const Navbar = ({
           {isLoginPage ? (
             <li className={myClass} 
             onClick={()=>{
-              navigate('/hostinger-clone/login')
+              navigate('/hostinger/login')
             }}
             >
               <div className={"login_btn_dark"}>
@@ -132,7 +132,7 @@ const Navbar = ({
           ) : (
             <li className={isScrolling ? "nav_dark" : "nav_light"} 
             onClick={()=>{
-              navigate('/hostinger-clone/login')
+              navigate('/hostinger/login')
             }}
             >
               <div className={isScrolling ? "login_btn_dark" : "login_btn"}>

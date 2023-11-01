@@ -15,8 +15,8 @@ export const App = () => {
     <>
       
       <Routes>
-        <Route path="/hostinger-clone" element={<Home />} />
-        <Route path="/hostinger-clone/login" element={<Login />} />
+        <Route path="/hostinger" element={<Home />} />
+        <Route path="/hostinger/login" element={<Login />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </>
